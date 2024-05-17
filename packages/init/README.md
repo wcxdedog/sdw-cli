@@ -1,29 +1,26 @@
-# 慕课网前端统一研发脚手架
+# 山大王脚手架
 
-## About
-
-慕课网前端架构师课程专属脚手架
 
 ## Getting Started
 
 安装：
 
 ```bash
-npm install -g @imooc-cli/core
+npm install -g @sdw-cli/core
 # OR
-yarn global add @imooc-cli/core
+yarn global add @sdw-cli/core
 ```
 
 创建项目
 
 ```bash
-imooc-cli init 
+sdw-cli init 
 ```
 
 发布项目
 
 ```bash
-imooc-cli publish
+sdw-cli publish
 ```
 
 ## More
@@ -31,11 +28,11 @@ imooc-cli publish
 DEBUG 模式：
 
 ```bash
-imooc-cli --debug
+sdw-cli --debug
 ```
 
 指定本地包：
 
 ```bash
-imooc-cli init --packagePath /Users/sam/Desktop/imooc-cli/packages/init/
+sdw-cli init --packagePath /Users/sam/Desktop/sdw-cli/packages/init/
 ```

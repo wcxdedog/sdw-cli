@@ -1,9 +1,8 @@
 {
-  "name": "@imooc-cli/publish",
+  "name": "@sdw-cli/publish",
   "version": "1.1.2",
-  "description": "> TODO: description",
-  "author": "sam <247765564@qq.com>",
-  "homepage": "https://github.com/sam9831/imooc-cli#readme",
+  "description": "sdw-cli publish",
+  "author": "arae-wang <sdwiscoming@163.com>",
   "license": "ISC",
   "main": "lib/index.js",
   "directories": {
@@ -16,15 +15,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sam9831/imooc-cli.git"
-  },
-  "bugs": {
-    "url": "https://github.com/sam9831/imooc-cli/issues"
-  },
   "dependencies": {
-    "@imooc-cli/utils": "^1.1.2",
+    "@sdw-cli/utils": "^1.1.2",
     "colors": "^1.4.0",
     "socket.io-client": "^2.3.1"
   },
